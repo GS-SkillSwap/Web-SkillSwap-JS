@@ -1,210 +1,53 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Importando Link para navegação
-import Logo from "../assets/imgs/SkillSwap.jpg"; // Alterado para usar o alias @
+import React from "react";
+import { Link } from "react-router-dom";
 
-// --- Ícones SVG ---
-const MenuIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <line x1="3" y1="12" x2="21" y2="12"></line>
-    <line x1="3" y1="6" x2="21" y2="6"></line>
-    <line x1="3" y1="18" x2="21" y2="18"></line>
-  </svg>
-);
-const XIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <line x1="18" y1="6" x2="6" y2="18"></line>
-    <line x1="6" y1="6" x2="18" y2="18"></line>
-  </svg>
-);
-const MoonIcon = ({ className }) => (
-  <svg
-    className={className}
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-  </svg>
-);
-const SunIcon = ({ className }) => (
-  <svg
-    className={className}
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <circle cx="12" cy="12" r="5"></circle>
-    <line x1="12" y1="1" x2="12" y2="3"></line>
-    <line x1="12" y1="21" x2="12" y2="23"></line>
-    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-    <line x1="1" y1="12" x2="3" y2="12"></line>
-    <line x1="21" y1="12" x2="23" y2="12"></line>
-    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-  </svg>
-);
-// --- Fim dos Ícones ---
-
-const Navbar = ({ theme, setTheme }) => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  // 1. Alterado para objetos para suportar 'Link to'
-  const navItems = [
-    { name: "Sobre", path: "/sobre" },
-    { name: "Recursos", path: "/recursos" },
-    { name: "Preços", path: "/precos" },
-    { name: "Comunidade", path: "/comunidade" },
-    { name: "Admin", path: "/admin" }, // <-- 2. Adicionado Link do Admin
-  ];
-
-  const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
-
+const Navbar = () => {
   return (
-    <nav className="bg-white/80 backdrop-blur-md dark:bg-gray-900/80 shadow-sm w-full fixed top-0 left-0 z-50">
+    <nav className="bg-gradient-to-r from-primary-600 via-primary-700 to-accent-600 shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex-shrink-0 flex items-center">
-            <img src={Logo} alt="SkillSwap Logo" className="h-8 w-auto" />
-            <span className="font-bold text-2xl ml-2 text-gray-900 dark:text-white">
-              SkillSwap
-            </span>
-          </Link>
-
-          {/* Links do Centro (Desktop) */}
-          <div className="hidden md:flex md:items-center md:space-x-8">
-            {navItems.map((item) => (
-              <Link // <-- 3. Trocado 'a' por 'Link'
-                key={item.name}
-                to={item.path} // <-- 4. Usando 'to'
-                className="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+        <div className="relative flex justify-between items-center h-16">
+          {/* Esquerda: Logo e Título */}
+          <div className="flex-shrink-0 flex items-center space-x-3">
+            <div className="bg-white/10 p-2 rounded-lg backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300">
+              <img
+                src="/SkillSwap-icon.jpg"
+                alt="SkillSwap"
+                className="h-8 w-8 rounded object-cover"
+              />
+            </div>
+            <h1 className="text-2xl font-bold text-white">
+              <Link
+                to="/"
+                className="hover:text-accent-200 transition-colors duration-300 flex items-center gap-2"
               >
-                {item.name}
+                Skill<span className="text-accent-300">Swap</span>
               </Link>
-            ))}
+            </h1>
           </div>
 
-          {/* Login/Cadastro (Desktop) */}
-          <div className="hidden md:flex items-center space-x-4">
-            <button
-              onClick={toggleTheme}
-              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 p-2 rounded-full transition-colors duration-200"
-              aria-label="Alternar tema"
+          {/* Centro: Botão Network */}
+          <div className="absolute left-1/2 transform -translate-x-1/2">
+            <Link
+              to="/network"
+              className="group relative text-white/90 hover:text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 hover:border-white/40 hover:shadow-lg hover:shadow-accent-500/20"
             >
-              {theme === "light" ? (
-                <MoonIcon className="w-5 h-5" />
-              ) : (
-                <SunIcon className="w-5 h-5" />
-              )}
-            </button>
-            <Link // <-- Trocado 'a' por 'Link'
+              <span className="relative z-10">Network</span>
+              <span className="absolute inset-0 rounded-full bg-gradient-to-r from-skill-400 to-accent-400 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
+            </Link>
+          </div>
+
+          {/* Direita: Botão Login */}
+          <div className="flex items-center">
+            <Link
               to="/login"
-              className="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              className="group relative bg-white text-primary-700 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-accent-50 transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-accent-500/30 overflow-hidden"
             >
-              Login
+              <span className="relative z-10">Login</span>
+              <span className="absolute inset-0 bg-gradient-to-r from-accent-400 to-skill-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
             </Link>
-            <Link // <-- Trocado 'a' por 'Link'
-              to="/register"
-              className="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition-shadow duration-200 shadow-sm"
-            >
-              Cadastre-se
-            </Link>
-          </div>
-
-          {/* Botão de Menu (Mobile) */}
-          <div className="md:hidden flex items-center">
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 p-2 rounded-md"
-              aria-label="Abrir menu"
-            >
-              {isMobileMenuOpen ? <XIcon /> : <MenuIcon />}
-            </button>
           </div>
         </div>
       </div>
-
-      {/* Menu Mobile (Dropdown) */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 shadow-lg">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navItems.map((item) => (
-              <Link // <-- Trocado 'a' por 'Link'
-                key={item.name}
-                to={item.path}
-                onClick={() => setIsMobileMenuOpen(false)} // Fecha o menu ao clicar
-                className="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 block px-3 py-2 rounded-md text-base font-medium"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-          <div className="pt-4 pb-3 border-t border-gray-200 dark:border-gray-700">
-            <div className="flex flex-col items-start px-5 space-y-3">
-              <button
-                onClick={toggleTheme}
-                className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 p-2 rounded-full transition-colors duration-200 flex items-center gap-2"
-                aria-label="Alternar tema"
-              >
-                {theme === "light" ? (
-                  <MoonIcon className="w-5 h-5" />
-                ) : (
-                  <SunIcon className="w-5 h-5" />
-                )}
-                <span>Alternar Tema</span>
-              </button>
-              <Link // <-- Trocado 'a' por 'Link'
-                to="/login"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 w-full px-3 py-2 rounded-md text-base font-medium"
-              >
-                Login
-              </Link>
-              <Link // <-- Trocado 'a' por 'Link'
-                to="/register"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="bg-indigo-600 text-white w-full text-center px-4 py-2 rounded-md text-base font-medium hover:bg-indigo-700"
-              >
-                Cadastre-se
-              </Link>
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };

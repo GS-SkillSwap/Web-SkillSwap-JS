@@ -1,0 +1,35 @@
+:root {
+  /* Paleta SkillSwap - tons modernos e profissionais */
+  --color-primary-50: oklch(98% 0.01 220);
+  --color-primary-100: oklch(95% 0.02 220);
+  --color-primary-200: oklch(88% 0.06 220);
+  --color-primary-300: oklch(80% 0.12 220);
+  --color-primary-400: oklch(70% 0.16 220);
+  --color-primary-500: oklch(62% 0.18 220);
+  --color-primary-600: oklch(52% 0.16 220);
+  --color-primary-700: oklch(42% 0.13 220);
+  --color-primary-800: oklch(32% 0.1 220);
+  --color-primary-900: oklch(24% 0.06 220);
+
+  --color-accent-50: oklch(98% 0.01 310);
+  --color-accent-100: oklch(95% 0.04 310);
+  --color-accent-200: oklch(90% 0.1 310);
+  --color-accent-300: oklch(82% 0.16 310);
+  --color-accent-400: oklch(72% 0.22 310);
+  --color-accent-500: oklch(64% 0.25 310);
+  --color-accent-600: oklch(54% 0.23 310);
+  --color-accent-700: oklch(44% 0.19 310);
+  --color-accent-800: oklch(35% 0.15 310);
+  --color-accent-900: oklch(28% 0.1 310);
+
+  --color-skill-50: oklch(98% 0.01 145);
+  --color-skill-100: oklch(94% 0.04 145);
+  --color-skill-200: oklch(88% 0.1 145);
+  --color-skill-300: oklch(80% 0.15 145);
+  --color-skill-400: oklch(70% 0.18 145);
+  --color-skill-500: oklch(62% 0.18 145);
+  --color-skill-600: oklch(52% 0.15 145);
+  --color-skill-700: oklch(42% 0.12 145);
+  --color-skill-800: oklch(33% 0.09 145);
+  --color-skill-900: oklch(26% 0.06 145);
+}
