@@ -1,0 +1,2376 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Carolina Silva",
+    "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "cargo": "Engenheira de Software Sênior",
+    "resumo": "Especialista em desenvolvimento full-stack com foco em soluções escaláveis",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "TypeScript", "AWS", "Docker"],
+    "softSkills": ["Comunicação", "Liderança", "Trabalho em equipe", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Tech Solutions Brasil",
+        "cargo": "Engenheira de Software Sênior",
+        "inicio": "2022-01",
+        "fim": null,
+        "descricao": "Liderança técnica de equipe de 8 desenvolvedores, arquitetura de microsserviços"
+      },
+      {
+        "empresa": "Startup Inovação",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Desenvolvimento de plataforma SaaS do zero até 100k usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      },
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de E-commerce Escalável",
+        "link": "https://github.com/anasilva/ecommerce",
+        "descricao": "Sistema de vendas online com mais de 50k transações/dia"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect", "Kubernetes Administrator"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["IA Generativa", "Arquitetura de Software", "Cloud Computing"]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Henrique Costa",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Designer UX/UI",
+    "resumo": "Criando experiências digitais memoráveis e centradas no usuário",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Sketch", "Prototyping", "Design System"],
+    "softSkills": ["Criatividade", "Empatia", "Comunicação", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "Design Studio RJ",
+        "cargo": "UX/UI Designer",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Design de interfaces para aplicativos mobile e web de grandes empresas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Design de Interação",
+        "instituicao": "PUC-Rio",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Bem-estar Mental",
+        "link": "https://behance.net/bruno/wellness",
+        "descricao": "Design completo de aplicativo com 4.8 estrelas na App Store"
+      }
+    ],
+    "certificacoes": ["Google UX Design Certificate", "Nielsen Norman Group UX"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Francês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Design Inclusivo", "Acessibilidade", "Design Thinking"]
+  },
+  {
+    "id": 3,
+    "nome": "Carla Mendes Oliveira",
+    "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    "cargo": "Cientista de Dados",
+    "resumo": "Transformando dados em insights estratégicos com IA e Machine Learning",
+    "localizacao": "Brasília/DF",
+    "area": "Data Science",
+    "habilidadesTecnicas": ["Python", "R", "SQL", "TensorFlow", "Power BI", "Tableau"],
+    "softSkills": ["Análise crítica", "Comunicação", "Curiosidade", "Resiliência"],
+    "experiencias": [
+      {
+        "empresa": "Data Analytics Corp",
+        "cargo": "Cientista de Dados Sênior",
+        "inicio": "2021-08",
+        "fim": null,
+        "descricao": "Desenvolvimento de modelos preditivos para otimização de processos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "PhD em Estatística",
+        "instituicao": "UnB",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Previsão de Churn",
+        "link": "https://github.com/carla/churn-prediction",
+        "descricao": "Redução de 30% na taxa de cancelamento de clientes"
+      }
+    ],
+    "certificacoes": ["AWS Certified Data Analytics", "Google Data Analytics"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["IA Ética", "Big Data", "Estatística Aplicada"]
+  },
+  {
+    "id": 4,
+    "nome": "Daniel Ferreira Santos",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Gerente de Produto",
+    "resumo": "Conectando tecnologia, negócios e experiência do usuário",
+    "localizacao": "São Paulo/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Jira", "Product Analytics", "SQL", "A/B Testing", "Roadmapping"],
+    "softSkills": ["Liderança", "Negociação", "Visão estratégica", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "FinTech Solutions",
+        "cargo": "Product Manager",
+        "inicio": "2020-03",
+        "fim": null,
+        "descricao": "Gestão de produtos digitais com mais de 500k usuários ativos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Produtos Digitais",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lançamento de Super App Financeiro",
+        "link": "https://linkedin.com/daniel/superapp",
+        "descricao": "Produto lançado com 100k downloads no primeiro mês"
+      }
+    ],
+    "certificacoes": ["Certified Scrum Product Owner", "Product Management Nanodegree"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Mandarim", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Product-Led Growth", "FinTech", "UX Research"]
+  },
+  {
+    "id": 5,
+    "nome": "Elena Rodrigues Alves",
+    "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Especialista em aplicativos iOS e Android nativos e híbridos",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React Native", "Swift", "Kotlin", "Flutter", "Firebase"],
+    "softSkills": ["Adaptabilidade", "Atenção aos detalhes", "Trabalho em equipe", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Mobile First Tech",
+        "cargo": "Desenvolvedora Mobile Sênior",
+        "inicio": "2021-01",
+        "fim": null,
+        "descricao": "Desenvolvimento de apps com milhões de downloads"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "UTFPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Delivery Sustentável",
+        "link": "https://github.com/elena/green-delivery",
+        "descricao": "Aplicativo com foco em entregas ecológicas"
+      }
+    ],
+    "certificacoes": ["Google Associate Android Developer", "iOS Development"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Mobile Development", "Sustentabilidade", "UX Mobile"]
+  },
+  {
+    "id": 6,
+    "nome": "Felipe Martins Souza",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "DevOps Engineer",
+    "resumo": "Automatizando processos e garantindo alta disponibilidade",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Kubernetes", "Docker", "Terraform", "Jenkins", "AWS", "Azure"],
+    "softSkills": ["Resolução de problemas", "Trabalho sob pressão", "Comunicação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Infrastructure Inc",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-09",
+        "fim": null,
+        "descricao": "Implementação de CI/CD pipelines e infraestrutura como código"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Redes de Computadores",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Infraestrutura Multi-Cloud",
+        "link": "https://github.com/felipe/multicloud",
+        "descricao": "Arquitetura híbrida AWS/Azure com 99.9% uptime"
+      }
+    ],
+    "certificacoes": ["AWS DevOps Engineer", "Certified Kubernetes Administrator"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Cloud Native", "Automação", "Site Reliability Engineering"]
+  },
+  {
+    "id": 7,
+    "nome": "Gabriela Santos Lima",
+    "foto": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400",
+    "cargo": "Analista de Segurança da Informação",
+    "resumo": "Protegendo dados e sistemas contra ameaças cibernéticas",
+    "localizacao": "Recife/PE",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Penetration Testing", "SIEM", "Firewall", "Python", "Network Security"],
+    "softSkills": ["Atenção aos detalhes", "Pensamento analítico", "Ética", "Aprendizado contínuo"],
+    "experiencias": [
+      {
+        "empresa": "SecureIT Solutions",
+        "cargo": "Security Analyst",
+        "inicio": "2021-05",
+        "fim": null,
+        "descricao": "Monitoramento e resposta a incidentes de segurança"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Segurança da Informação",
+        "instituicao": "UFPE",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Detecção de Ameaças",
+        "link": "https://github.com/gabi/threat-detection",
+        "descricao": "Sistema de detecção de anomalias baseado em ML"
+      }
+    ],
+    "certificacoes": ["CEH - Certified Ethical Hacker", "CISSP"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Cybersecurity", "Ethical Hacking", "Privacy"]
+  },
+  {
+    "id": 8,
+    "nome": "Henrique Almeida Costa",
+    "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+    "cargo": "Arquiteto de Soluções",
+    "resumo": "Desenhando arquiteturas robustas e escaláveis para problemas complexos",
+    "localizacao": "São Paulo/SP",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["Microservices", "API Design", "Cloud Architecture", "System Design", "Java"],
+    "softSkills": ["Liderança técnica", "Comunicação", "Visão sistêmica", "Mentoria"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Systems Corp",
+        "cargo": "Solutions Architect",
+        "inicio": "2019-07",
+        "fim": null,
+        "descricao": "Arquitetura de sistemas enterprise para grandes corporações"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia de Software",
+        "instituicao": "ITA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Migração de Monolito para Microserviços",
+        "link": "https://github.com/henrique/microservices-migration",
+        "descricao": "Modernização de sistema legado com 15 anos"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "TOGAF 9 Certified"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Alemão", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Enterprise Architecture", "Domain-Driven Design", "Event-Driven Architecture"]
+  },
+  {
+    "id": 9,
+    "nome": "Isabela Ferreira Rocha",
+    "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+    "cargo": "Especialista em Marketing Digital",
+    "resumo": "Criando estratégias data-driven para crescimento digital",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Analytics", "SEO", "SEM", "Social Media", "Content Marketing"],
+    "softSkills": ["Criatividade", "Comunicação", "Análise de dados", "Estratégia"],
+    "experiencias": [
+      {
+        "empresa": "Digital Growth Agency",
+        "cargo": "Marketing Manager",
+        "inicio": "2020-04",
+        "fim": null,
+        "descricao": "Gestão de campanhas digitais com ROI de 300%+"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing Digital",
+        "instituicao": "PUCRS",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Campanha de Growth Hacking",
+        "link": "https://linkedin.com/isabela/campaign",
+        "descricao": "Crescimento de 500% em leads qualificados em 6 meses"
+      }
+    ],
+    "certificacoes": ["Google Ads Certification", "HubSpot Inbound Marketing"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Growth Marketing", "Performance Marketing", "Brand Strategy"]
+  },
+  {
+    "id": 10,
+    "nome": "João Pedro Oliveira",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Engenheiro de Machine Learning",
+    "resumo": "Desenvolvendo modelos de IA para resolver problemas do mundo real",
+    "localizacao": "São Paulo/SP",
+    "area": "IA & Machine Learning",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "MLOps", "NLP"],
+    "softSkills": ["Inovação", "Pesquisa", "Colaboração", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Lab",
+        "cargo": "ML Engineer",
+        "inicio": "2021-02",
+        "fim": null,
+        "descricao": "Desenvolvimento de modelos de deep learning para visão computacional"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Inteligência Artificial",
+        "instituicao": "USP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Reconhecimento Facial",
+        "link": "https://github.com/joao/face-recognition",
+        "descricao": "Modelo com 98% de acurácia em dataset público"
+      }
+    ],
+    "certificacoes": ["TensorFlow Developer Certificate", "Deep Learning Specialization"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Deep Learning", "Computer Vision", "IA Ética"]
+  },
+  {
+    "id": 11,
+    "nome": "Larissa Andrade Silva",
+    "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Conectando talentos às oportunidades certas através de tecnologia",
+    "localizacao": "Salvador/BA",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["People Analytics", "ATS Systems", "Excel Avançado", "HRIS", "Recrutamento Tech"],
+    "softSkills": ["Empatia", "Comunicação", "Escuta ativa", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "TechTalent RH",
+        "cargo": "HR Business Partner",
+        "inicio": "2020-08",
+        "fim": null,
+        "descricao": "Recrutamento e seleção de talentos tech com foco em diversidade"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Pessoas",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Diversidade & Inclusão",
+        "link": "https://linkedin.com/larissa/diversity",
+        "descricao": "Aumento de 40% na diversidade de equipes tech"
+      }
+    ],
+    "certificacoes": ["SHRM-CP", "People Analytics Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Diversidade & Inclusão", "People Analytics", "Employee Experience"]
+  },
+  {
+    "id": 12,
+    "nome": "Marcos Vinicius Santos",
+    "foto": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400",
+    "cargo": "Desenvolvedor Backend",
+    "resumo": "Construindo APIs robustas e sistemas de alta performance",
+    "localizacao": "Florianópolis/SC",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "PostgreSQL", "Redis", "Kafka", "Microservices"],
+    "softSkills": ["Resolução de problemas", "Trabalho em equipe", "Organização", "Aprendizado rápido"],
+    "experiencias": [
+      {
+        "empresa": "Backend Solutions",
+        "cargo": "Backend Developer",
+        "inicio": "2020-05",
+        "fim": null,
+        "descricao": "Desenvolvimento de APIs REST e GraphQL para plataformas de alta escala"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API de Pagamentos em Tempo Real",
+        "link": "https://github.com/marcos/payment-api",
+        "descricao": "Sistema processando 10k transações por segundo"
+      }
+    ],
+    "certificacoes": ["Oracle Certified Professional Java", "Spring Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Microservices", "Event-Driven Architecture", "Performance Optimization"]
+  },
+  {
+    "id": 13,
+    "nome": "Natália Ribeiro Costa",
+    "foto": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=400",
+    "cargo": "Product Designer",
+    "resumo": "Desenhando produtos digitais com foco em impacto e usabilidade",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "User Research", "Prototyping", "Design Systems", "Usability Testing"],
+    "softSkills": ["Empatia", "Colaboração", "Pensamento crítico", "Comunicação visual"],
+    "experiencias": [
+      {
+        "empresa": "Product Design Studio",
+        "cargo": "Senior Product Designer",
+        "inicio": "2021-03",
+        "fim": null,
+        "descricao": "Design de produtos digitais para startups e empresas consolidadas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Design de Produto",
+        "instituicao": "ESPM",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Redesign de Plataforma Educacional",
+        "link": "https://behance.net/natalia/eduplatform",
+        "descricao": "Aumento de 60% no engajamento dos usuários"
+      }
+    ],
+    "certificacoes": ["Design Thinking Certificate", "UX Research Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Italiano", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Design de Produto", "Acessibilidade", "Design Inclusivo"]
+  },
+  {
+    "id": 14,
+    "nome": "Otávio Henrique Lima",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Analista de Business Intelligence",
+    "resumo": "Transformando dados complexos em visualizações e insights acionáveis",
+    "localizacao": "Curitiba/PR",
+    "area": "Business Intelligence",
+    "habilidadesTecnicas": ["Power BI", "Tableau", "SQL", "Python", "DAX", "ETL"],
+    "softSkills": ["Análise crítica", "Comunicação", "Storytelling com dados", "Atenção aos detalhes"],
+    "experiencias": [
+      {
+        "empresa": "Data Insights Corp",
+        "cargo": "BI Analyst",
+        "inicio": "2020-10",
+        "fim": null,
+        "descricao": "Desenvolvimento de dashboards executivos e análises estratégicas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Business Intelligence",
+        "instituicao": "FIA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard de Performance Comercial",
+        "link": "https://github.com/otavio/sales-dashboard",
+        "descricao": "Sistema de BI que aumentou vendas em 25%"
+      }
+    ],
+    "certificacoes": ["Microsoft Certified Power BI", "Tableau Desktop Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Data Visualization", "Business Analytics", "Data Storytelling"]
+  },
+  {
+    "id": 15,
+    "nome": "Paula Cristina Martins",
+    "foto": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
+    "cargo": "Scrum Master",
+    "resumo": "Facilitando equipes ágeis e removendo impedimentos para alta performance",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Agilidade",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Jira", "Confluence", "Facilitação", "Métricas Ágeis"],
+    "softSkills": ["Liderança servidora", "Facilitação", "Resolução de conflitos", "Coaching"],
+    "experiencias": [
+      {
+        "empresa": "Agile Tech Company",
+        "cargo": "Scrum Master",
+        "inicio": "2019-11",
+        "fim": null,
+        "descricao": "Facilitação de múltiplos times ágeis e transformação organizacional"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Certificação em Coaching Ágil",
+        "instituicao": "Management 3.0",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Ágil Enterprise",
+        "link": "https://linkedin.com/paula/agile-transformation",
+        "descricao": "Implementação de agilidade em escala com SAFe"
+      }
+    ],
+    "certificacoes": ["Certified Scrum Master", "SAFe 5 Agilist", "Professional Scrum Master II"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Agilidade em Escala", "Transformação Digital", "Facilitação"]
+  },
+  {
+    "id": 16,
+    "nome": "Rafael Augusto Soares",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "Engenheiro de Dados",
+    "resumo": "Construindo pipelines de dados e infraestrutura para analytics",
+    "localizacao": "Campinas/SP",
+    "area": "Data Engineering",
+    "habilidadesTecnicas": ["Python", "Spark", "Airflow", "AWS", "Snowflake", "dbt"],
+    "softSkills": ["Resolução de problemas", "Atenção aos detalhes", "Colaboração", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Big Data Solutions",
+        "cargo": "Data Engineer",
+        "inicio": "2020-07",
+        "fim": null,
+        "descricao": "Construção de data lakes e pipelines ETL em larga escala"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia de Dados",
+        "instituicao": "Unicamp",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Data Lake Moderno com Delta Lake",
+        "link": "https://github.com/rafael/modern-datalake",
+        "descricao": "Arquitetura de dados processando 10TB diários"
+      }
+    ],
+    "certificacoes": ["Databricks Certified Data Engineer", "AWS Data Analytics"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Data Engineering", "Modern Data Stack", "Data Quality"]
+  },
+  {
+    "id": 17,
+    "nome": "Sofia Lopes Pereira",
+    "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400",
+    "cargo": "QA Engineer",
+    "resumo": "Garantindo qualidade através de testes automatizados e manuais",
+    "localizacao": "Fortaleza/CE",
+    "area": "Quality Assurance",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Jest", "Postman", "JMeter", "API Testing"],
+    "softSkills": ["Atenção aos detalhes", "Pensamento analítico", "Comunicação", "Persistência"],
+    "experiencias": [
+      {
+        "empresa": "Quality First Tech",
+        "cargo": "QA Engineer",
+        "inicio": "2020-09",
+        "fim": null,
+        "descricao": "Automação de testes e garantia de qualidade de software"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UFC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Testes E2E",
+        "link": "https://github.com/sofia/e2e-framework",
+        "descricao": "Framework que reduziu tempo de testes em 70%"
+      }
+    ],
+    "certificacoes": ["ISTQB Certified", "Cypress Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Test Automation", "Quality Engineering", "Performance Testing"]
+  },
+  {
+    "id": 18,
+    "nome": "Thiago Rodrigues Pinto",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Tech Lead",
+    "resumo": "Liderando equipes técnicas e definindo estratégias de arquitetura",
+    "localizacao": "São Paulo/SP",
+    "area": "Liderança Técnica",
+    "habilidadesTecnicas": ["System Design", "Code Review", "React", "Node.js", "Architecture", "Mentoring"],
+    "softSkills": ["Liderança", "Mentoria", "Comunicação", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Tech Innovations",
+        "cargo": "Tech Lead",
+        "inicio": "2019-05",
+        "fim": null,
+        "descricao": "Liderança de squad de 12 desenvolvedores e definição de arquitetura"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Arquitetura de Software",
+        "instituicao": "Mackenzie",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modernização de Plataforma Legacy",
+        "link": "https://github.com/thiago/platform-modernization",
+        "descricao": "Migração de aplicação monolítica para microsserviços"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect", "Technical Leadership Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Francês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Technical Leadership", "Software Architecture", "Team Building"]
+  },
+  {
+    "id": 19,
+    "nome": "Vanessa Almeida Rocha",
+    "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400",
+    "cargo": "Analista de Experiência do Cliente",
+    "resumo": "Melhorando a jornada do cliente com dados e empatia",
+    "localizacao": "Goiânia/GO",
+    "area": "Customer Experience",
+    "habilidadesTecnicas": ["CRM Systems", "Customer Analytics", "Journey Mapping", "Zendesk", "Qualtrics"],
+    "softSkills": ["Empatia", "Comunicação", "Resolução de problemas", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "CX Innovation Hub",
+        "cargo": "CX Analyst",
+        "inicio": "2020-11",
+        "fim": null,
+        "descricao": "Análise e otimização da jornada do cliente em canais digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Customer Experience",
+        "instituicao": "ESPM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Redesign de Jornada Digital",
+        "link": "https://linkedin.com/vanessa/cx-journey",
+        "descricao": "Aumento de 45% no NPS através de melhorias na jornada"
+      }
+    ],
+    "certificacoes": ["CCXP - Certified Customer Experience Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Customer Experience", "Service Design", "Jornada do Cliente"]
+  },
+  {
+    "id": 20,
+    "nome": "William Ferreira Souza",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Desenvolvedor Frontend",
+    "resumo": "Criando interfaces modernas e performáticas com React e Vue",
+    "localizacao": "Manaus/AM",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js", "Web Performance"],
+    "softSkills": ["Criatividade", "Atenção aos detalhes", "Colaboração", "Aprendizado contínuo"],
+    "experiencias": [
+      {
+        "empresa": "Frontend Masters",
+        "cargo": "Frontend Developer",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Desenvolvimento de interfaces web modernas e responsivas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UFAM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Design System Corporativo",
+        "link": "https://github.com/william/design-system",
+        "descricao": "Sistema de design utilizado por 5 produtos diferentes"
+      }
+    ],
+    "certificacoes": ["Meta Frontend Developer Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Frontend Architecture", "Web Performance", "Design Systems"]
+  },
+  {
+    "id": 21,
+    "nome": "Amanda Cristina Barbosa",
+    "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "cargo": "Coordenadora de Projetos",
+    "resumo": "Gerenciando projetos complexos com metodologias ágeis e tradicionais",
+    "localizacao": "Vitória/ES",
+    "area": "Gestão de Projetos",
+    "habilidadesTecnicas": ["MS Project", "Jira", "PMI Methodologies", "Risk Management", "Budget Planning"],
+    "softSkills": ["Liderança", "Organização", "Negociação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Project Management Solutions",
+        "cargo": "Project Coordinator",
+        "inicio": "2019-08",
+        "fim": null,
+        "descricao": "Coordenação de projetos de TI com orçamentos de R$ 5M+"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Projetos",
+        "instituicao": "FGV",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Implementação de ERP Nacional",
+        "link": "https://linkedin.com/amanda/erp-project",
+        "descricao": "Projeto concluído dentro do prazo e orçamento para 20 filiais"
+      }
+    ],
+    "certificacoes": ["PMP - Project Management Professional", "Certified ScrumMaster"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Project Management", "Transformação Digital", "Change Management"]
+  },
+  {
+    "id": 22,
+    "nome": "Bernardo Santos Lima",
+    "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+    "cargo": "Especialista em Cloud Computing",
+    "resumo": "Arquitetando soluções cloud-native e migrações para nuvem",
+    "localizacao": "Brasília/DF",
+    "area": "Cloud",
+    "habilidadesTecnicas": ["AWS", "Azure", "GCP", "Terraform", "CloudFormation", "Kubernetes"],
+    "softSkills": ["Resolução de problemas", "Análise crítica", "Comunicação técnica", "Inovação"],
+    "experiencias": [
+      {
+        "empresa": "Cloud First Consulting",
+        "cargo": "Cloud Architect",
+        "inicio": "2020-02",
+        "fim": null,
+        "descricao": "Consultoria em arquitetura cloud e migração de workloads"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Cloud Computing",
+        "instituicao": "UnB",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Migração Multi-Cloud Enterprise",
+        "link": "https://github.com/bernardo/multicloud-migration",
+        "descricao": "Migração de 200+ servidores para cloud com zero downtime"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert", "GCP Professional Cloud Architect"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Multi-Cloud", "Cloud Native", "FinOps"]
+  },
+  {
+    "id": 23,
+    "nome": "Camila Rodrigues Dias",
+    "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    "cargo": "Analista de Processos",
+    "resumo": "Otimizando processos empresariais através de automação e análise",
+    "localizacao": "São Paulo/SP",
+    "area": "Processos",
+    "habilidadesTecnicas": ["BPMN", "Bizagi", "UiPath", "Process Mining", "Lean Six Sigma"],
+    "softSkills": ["Análise crítica", "Atenção aos detalhes", "Comunicação", "Melhoria contínua"],
+    "experiencias": [
+      {
+        "empresa": "Process Excellence Corp",
+        "cargo": "Business Process Analyst",
+        "inicio": "2020-04",
+        "fim": null,
+        "descricao": "Mapeamento e otimização de processos de negócio"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Processos",
+        "instituicao": "FIA",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Automação de Processos Financeiros",
+        "link": "https://linkedin.com/camila/process-automation",
+        "descricao": "Redução de 60% no tempo de processamento financeiro"
+      }
+    ],
+    "certificacoes": ["Lean Six Sigma Black Belt", "Certified Business Process Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["BPM", "RPA", "Process Mining"]
+  },
+  {
+    "id": 24,
+    "nome": "Diego Henrique Alves",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Desenvolvendo aplicações completas do frontend ao backend",
+    "localizacao": "Natal/RN",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "MongoDB", "PostgreSQL", "Docker", "GraphQL"],
+    "softSkills": ["Versatilidade", "Resolução de problemas", "Trabalho em equipe", "Autogestão"],
+    "experiencias": [
+      {
+        "empresa": "Full Stack Development",
+        "cargo": "Full Stack Developer",
+        "inicio": "2020-07",
+        "fim": null,
+        "descricao": "Desenvolvimento de aplicações web completas end-to-end"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "UFRN",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de E-learning",
+        "link": "https://github.com/diego/elearning-platform",
+        "descricao": "Sistema completo de gestão de cursos online"
+      }
+    ],
+    "certificacoes": ["Full Stack Web Development Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Full Stack Development", "Serverless", "JAMstack"]
+  },
+  {
+    "id": 25,
+    "nome": "Eduarda Sousa Martins",
+    "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+    "cargo": "Especialista em SEO",
+    "resumo": "Otimizando sites para mecanismos de busca e aumentando tráfego orgânico",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["SEO On-page", "SEO Off-page", "Google Search Console", "SEMrush", "Ahrefs", "Content Strategy"],
+    "softSkills": ["Análise de dados", "Estratégia", "Comunicação", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "SEO Masters Agency",
+        "cargo": "SEO Specialist",
+        "inicio": "2020-09",
+        "fim": null,
+        "descricao": "Otimização de sites e estratégias de conteúdo para SEO"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Marketing Digital",
+        "instituicao": "PUCPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estratégia SEO E-commerce",
+        "link": "https://linkedin.com/eduarda/seo-strategy",
+        "descricao": "Aumento de 300% em tráfego orgânico em 12 meses"
+      }
+    ],
+    "certificacoes": ["Google Analytics Certification", "SEMrush SEO Toolkit"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["SEO", "Content Marketing", "Technical SEO"]
+  },
+  {
+    "id": 26,
+    "nome": "Fábio Augusto Silva",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Analista de Infraestrutura",
+    "resumo": "Mantendo sistemas críticos online com alta disponibilidade",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Linux", "Windows Server", "VMware", "Networking", "Monitoring", "Backup Solutions"],
+    "softSkills": ["Trabalho sob pressão", "Resolução de problemas", "Organização", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Infrastructure Services",
+        "cargo": "Infrastructure Analyst",
+        "inicio": "2019-10",
+        "fim": null,
+        "descricao": "Gerenciamento de infraestrutura on-premise e hybrid cloud"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Redes de Computadores",
+        "instituicao": "PUCRS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modernização de Datacenter",
+        "link": "https://github.com/fabio/datacenter-modernization",
+        "descricao": "Upgrade completo de infraestrutura aumentando uptime para 99.95%"
+      }
+    ],
+    "certificacoes": ["Red Hat Certified Engineer", "VMware Certified Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Infrastructure as Code", "Hybrid Cloud", "Disaster Recovery"]
+  },
+  {
+    "id": 27,
+    "nome": "Giovana Pereira Costa",
+    "foto": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400",
+    "cargo": "UX Researcher",
+    "resumo": "Compreendendo usuários através de pesquisa e dados comportamentais",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "UX Research",
+    "habilidadesTecnicas": ["User Interviews", "Usability Testing", "A/B Testing", "Survey Design", "Data Analysis"],
+    "softSkills": ["Empatia", "Escuta ativa", "Análise crítica", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "User Experience Lab",
+        "cargo": "UX Researcher",
+        "inicio": "2020-05",
+        "fim": null,
+        "descricao": "Condução de pesquisas qualitativas e quantitativas para produtos digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Psicologia Cognitiva",
+        "instituicao": "UFMG",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Research Framework para SaaS",
+        "link": "https://linkedin.com/giovana/research-framework",
+        "descricao": "Framework de pesquisa adotado por 3 produtos diferentes"
+      }
+    ],
+    "certificacoes": ["Nielsen Norman Group UX Research", "User Research Methods"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Alemão", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["UX Research", "Behavioral Psychology", "Accessibility Research"]
+  },
+  {
+    "id": 28,
+    "nome": "Hugo Leonardo Santos",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "Engenheiro de Blockchain",
+    "resumo": "Desenvolvendo aplicações descentralizadas e smart contracts",
+    "localizacao": "São Paulo/SP",
+    "area": "Blockchain",
+    "habilidadesTecnicas": ["Solidity", "Ethereum", "Web3.js", "Smart Contracts", "Hyperledger", "DeFi"],
+    "softSkills": ["Inovação", "Pensamento analítico", "Resolução de problemas", "Aprendizado contínuo"],
+    "experiencias": [
+      {
+        "empresa": "Blockchain Solutions",
+        "cargo": "Blockchain Engineer",
+        "inicio": "2021-01",
+        "fim": null,
+        "descricao": "Desenvolvimento de DApps e smart contracts para DeFi"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Blockchain",
+        "instituicao": "MIT Online",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "DeFi Lending Platform",
+        "link": "https://github.com/hugo/defi-lending",
+        "descricao": "Plataforma de empréstimos descentralizados com TVL de $10M"
+      }
+    ],
+    "certificacoes": ["Certified Blockchain Developer", "Ethereum Developer Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["DeFi", "NFTs", "Web3"]
+  },
+  {
+    "id": 29,
+    "nome": "Isabelle Martins Rocha",
+    "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+    "cargo": "Analista de Conteúdo Digital",
+    "resumo": "Criando estratégias de conteúdo que engajam e convertem",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Content Strategy", "SEO Writing", "Social Media", "CMS", "Analytics"],
+    "softSkills": ["Criatividade", "Storytelling", "Comunicação", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Content Marketing Agency",
+        "cargo": "Content Strategist",
+        "inicio": "2020-03",
+        "fim": null,
+        "descricao": "Criação de estratégias de conteúdo para marcas B2B e B2C"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Marketing Digital",
+        "instituicao": "UFPE",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estratégia de Content Marketing B2B",
+        "link": "https://linkedin.com/isabelle/content-strategy",
+        "descricao": "Geração de 500+ leads qualificados através de conteúdo"
+      }
+    ],
+    "certificacoes": ["HubSpot Content Marketing", "Content Strategy Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Content Marketing", "Brand Storytelling", "Digital Strategy"]
+  },
+  {
+    "id": 30,
+    "nome": "Jorge Luís Almeida",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Arquiteto de Dados",
+    "resumo": "Desenhando arquiteturas de dados modernas e escaláveis",
+    "localizacao": "São Paulo/SP",
+    "area": "Data Architecture",
+    "habilidadesTecnicas": ["Data Modeling", "SQL", "NoSQL", "Data Warehousing", "ETL", "Big Data"],
+    "softSkills": ["Visão estratégica", "Análise crítica", "Comunicação técnica", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "Data Architecture Consultancy",
+        "cargo": "Data Architect",
+        "inicio": "2019-09",
+        "fim": null,
+        "descricao": "Design de arquiteturas de dados enterprise e data warehouses"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Banco de Dados",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modern Data Warehouse",
+        "link": "https://github.com/jorge/modern-dwh",
+        "descricao": "Data warehouse processando 5PB de dados"
+      }
+    ],
+    "certificacoes": ["TOGAF Certified", "Data Management Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Data Mesh", "Data Governance", "Master Data Management"]
+  },
+  {
+    "id": 31,
+    "nome": "Letícia Fernandes Costa",
+    "foto": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=400",
+    "cargo": "Especialista em Acessibilidade Digital",
+    "resumo": "Tornando a web mais inclusiva e acessível para todos",
+    "localizacao": "Brasília/DF",
+    "area": "Acessibilidade",
+    "habilidadesTecnicas": ["WCAG", "ARIA", "Screen Readers", "Accessibility Testing", "HTML Semântico"],
+    "softSkills": ["Empatia", "Advocacia", "Educação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Inclusive Web Solutions",
+        "cargo": "Accessibility Specialist",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Consultoria em acessibilidade e adequação WCAG 2.1 AA"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Acessibilidade Digital",
+        "instituicao": "UnB",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Auditoria de Acessibilidade E-gov",
+        "link": "https://linkedin.com/leticia/a11y-audit",
+        "descricao": "Adequação de portais governamentais às normas de acessibilidade"
+      }
+    ],
+    "certificacoes": ["IAAP Certified Professional in Accessibility Core Competencies"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Libras", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Web Accessibility", "Inclusive Design", "Assistive Technology"]
+  },
+  {
+    "id": 32,
+    "nome": "Matheus Oliveira Pinto",
+    "foto": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400",
+    "cargo": "Especialista em IoT",
+    "resumo": "Conectando dispositivos e criando soluções inteligentes para IoT",
+    "localizacao": "Campinas/SP",
+    "area": "IoT",
+    "habilidadesTecnicas": ["Arduino", "Raspberry Pi", "MQTT", "AWS IoT", "Sensors", "Edge Computing"],
+    "softSkills": ["Inovação", "Resolução de problemas", "Trabalho em equipe", "Curiosidade"],
+    "experiencias": [
+      {
+        "empresa": "IoT Innovations",
+        "cargo": "IoT Engineer",
+        "inicio": "2020-08",
+        "fim": null,
+        "descricao": "Desenvolvimento de soluções IoT para indústria e smart cities"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Internet das Coisas",
+        "instituicao": "Unicamp",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Smart Agriculture System",
+        "link": "https://github.com/matheus/smart-agro",
+        "descricao": "Sistema IoT para agricultura de precisão"
+      }
+    ],
+    "certificacoes": ["AWS IoT Specialty", "Certified IoT Practitioner"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Internet of Things", "Edge AI", "Smart Cities"]
+  },
+  {
+    "id": 33,
+    "nome": "Nicole Barbosa Lima",
+    "foto": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
+    "cargo": "Analista de CRM",
+    "resumo": "Otimizando relacionamento com clientes através de tecnologia",
+    "localizacao": "São Paulo/SP",
+    "area": "CRM",
+    "habilidadesTecnicas": ["Salesforce", "HubSpot", "Marketing Automation", "Customer Analytics", "SQL"],
+    "softSkills": ["Análise de dados", "Comunicação", "Estratégia", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "CRM Solutions Corp",
+        "cargo": "CRM Analyst",
+        "inicio": "2020-04",
+        "fim": null,
+        "descricao": "Implementação e otimização de plataformas CRM"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing e Vendas",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Automação de Marketing B2B",
+        "link": "https://linkedin.com/nicole/marketing-automation",
+        "descricao": "Implementação de nurturing que aumentou conversão em 40%"
+      }
+    ],
+    "certificacoes": ["Salesforce Administrator", "HubSpot CRM Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["CRM Strategy", "Marketing Automation", "Customer Data Platform"]
+  },
+  {
+    "id": 34,
+    "nome": "Oscar Silva Rodrigues",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Especialista em Automação de Testes",
+    "resumo": "Construindo frameworks e estratégias de teste automatizado",
+    "localizacao": "Florianópolis/SC",
+    "area": "Quality Assurance",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Robot Framework", "CI/CD", "Test Strategy", "Performance Testing"],
+    "softSkills": ["Atenção aos detalhes", "Pensamento lógico", "Persistência", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Test Automation Factory",
+        "cargo": "Test Automation Engineer",
+        "inicio": "2020-07",
+        "fim": null,
+        "descricao": "Desenvolvimento de frameworks de automação de testes"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Universal Test Framework",
+        "link": "https://github.com/oscar/universal-test-framework",
+        "descricao": "Framework que automatizou 80% dos testes manuais"
+      }
+    ],
+    "certificacoes": ["ISTQB Advanced Test Automation Engineer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Test Automation", "CI/CD", "Shift-Left Testing"]
+  },
+  {
+    "id": 35,
+    "nome": "Priscila Mendes Souza",
+    "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400",
+    "cargo": "Gerente de E-commerce",
+    "resumo": "Impulsionando vendas online e otimizando experiência de compra",
+    "localizacao": "São Paulo/SP",
+    "area": "E-commerce",
+    "habilidadesTecnicas": ["E-commerce Platforms", "Google Analytics", "Conversion Optimization", "A/B Testing", "Marketplace Management"],
+    "softSkills": ["Visão estratégica", "Análise de dados", "Liderança", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Digital Retail Solutions",
+        "cargo": "E-commerce Manager",
+        "inicio": "2019-11",
+        "fim": null,
+        "descricao": "Gestão de operação e-commerce com faturamento de R$ 10M/mês"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de E-commerce",
+        "instituicao": "ESPM",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Expansão Omnichannel",
+        "link": "https://linkedin.com/priscila/omnichannel",
+        "descricao": "Integração de canais físicos e digitais aumentando vendas em 60%"
+      }
+    ],
+    "certificacoes": ["Google Analytics 4", "E-commerce Optimization Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["E-commerce", "Marketplace Strategy", "Conversion Rate Optimization"]
+  },
+  {
+    "id": 36,
+    "nome": "Ricardo Fernandes Alves",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Analista de Compliance",
+    "resumo": "Garantindo conformidade regulatória e governança corporativa",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Compliance",
+    "habilidadesTecnicas": ["LGPD", "GDPR", "Risk Assessment", "Audit", "Regulatory Frameworks"],
+    "softSkills": ["Ética", "Atenção aos detalhes", "Comunicação", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "Compliance & Governance",
+        "cargo": "Compliance Analyst",
+        "inicio": "2020-01",
+        "fim": null,
+        "descricao": "Implementação de programas de compliance e adequação à LGPD"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Compliance e Governança",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Adequação LGPD",
+        "link": "https://linkedin.com/ricardo/lgpd-program",
+        "descricao": "Adequação completa de empresa com 5000+ colaboradores"
+      }
+    ],
+    "certificacoes": ["Certified Compliance Professional", "Data Protection Officer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Data Privacy", "Regulatory Compliance", "Corporate Governance"]
+  },
+  {
+    "id": 37,
+    "nome": "Tatiana Costa Pereira",
+    "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400",
+    "cargo": "Especialista em Growth",
+    "resumo": "Impulsionando crescimento através de experimentos e análise de dados",
+    "localizacao": "São Paulo/SP",
+    "area": "Growth",
+    "habilidadesTecnicas": ["Growth Hacking", "Analytics", "A/B Testing", "SQL", "Product Analytics", "Mixpanel"],
+    "softSkills": ["Pensamento analítico", "Criatividade", "Experimentação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Growth Lab",
+        "cargo": "Growth Specialist",
+        "inicio": "2020-10",
+        "fim": null,
+        "descricao": "Desenvolvimento e execução de estratégias de crescimento"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Growth Marketing",
+        "instituicao": "ESPM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Growth Engine SaaS",
+        "link": "https://linkedin.com/tatiana/growth-engine",
+        "descricao": "Crescimento de 0 a 10k usuários em 6 meses"
+      }
+    ],
+    "certificacoes": ["Reforge Growth Series", "Growth Marketing Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Product-Led Growth", "Viral Growth", "Retention Optimization"]
+  },
+  {
+    "id": 38,
+    "nome": "Vinícius Santos Rocha",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "Analista de Suporte Técnico",
+    "resumo": "Solucionando problemas técnicos e garantindo satisfação do cliente",
+    "localizacao": "Curitiba/PR",
+    "area": "Suporte",
+    "habilidadesTecnicas": ["Help Desk", "Troubleshooting", "Remote Support", "ITIL", "Ticketing Systems"],
+    "softSkills": ["Paciência", "Comunicação", "Empatia", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Tech Support Solutions",
+        "cargo": "Technical Support Analyst",
+        "inicio": "2019-12",
+        "fim": null,
+        "descricao": "Suporte técnico N2 para produtos de software corporativo"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Redes de Computadores",
+        "instituicao": "UTFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Base de Conhecimento Técnico",
+        "link": "https://github.com/vinicius/kb-system",
+        "descricao": "Sistema que reduziu tempo de resolução em 40%"
+      }
+    ],
+    "certificacoes": ["ITIL Foundation", "CompTIA A+"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Technical Support", "Customer Success", "IT Service Management"]
+  },
+  {
+    "id": 39,
+    "nome": "Yasmin Oliveira Dias",
+    "foto": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400",
+    "cargo": "Coordenadora de Treinamento",
+    "resumo": "Desenvolvendo programas de capacitação e desenvolvimento de talentos",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Educação Corporativa",
+    "habilidadesTecnicas": ["LMS", "Instructional Design", "E-learning", "Training Needs Analysis", "Performance Evaluation"],
+    "softSkills": ["Comunicação", "Empatia", "Organização", "Facilitação"],
+    "experiencias": [
+      {
+        "empresa": "Corporate Learning Hub",
+        "cargo": "Training Coordinator",
+        "inicio": "2020-02",
+        "fim": null,
+        "descricao": "Coordenação de programas de treinamento técnico e comportamental"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Pessoas e Educação Corporativa",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Academia Tech Interna",
+        "link": "https://linkedin.com/yasmin/tech-academy",
+        "descricao": "Programa que treinou 500+ colaboradores em 2 anos"
+      }
+    ],
+    "certificacoes": ["CPTM - Certified Professional in Training Management"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Learning & Development", "Talent Development", "Corporate Education"]
+  },
+  {
+    "id": 40,
+    "nome": "Zeca Rodrigues Martins",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Desenvolvedor Game",
+    "resumo": "Criando experiências interativas e jogos imersivos",
+    "localizacao": "São Paulo/SP",
+    "area": "Game Development",
+    "habilidadesTecnicas": ["Unity", "Unreal Engine", "C#", "C++", "Game Design", "3D Modeling"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Resolução de problemas", "Paixão"],
+    "experiencias": [
+      {
+        "empresa": "Indie Game Studio",
+        "cargo": "Game Developer",
+        "inicio": "2020-05",
+        "fim": null,
+        "descricao": "Desenvolvimento de jogos mobile e PC com Unity e Unreal"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Jogos Digitais",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "RPG de Aventura 3D",
+        "link": "https://github.com/zeca/adventure-rpg",
+        "descricao": "Jogo com 50k+ downloads nas lojas de aplicativos"
+      }
+    ],
+    "certificacoes": ["Unity Certified Developer", "Unreal Engine Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Game Design", "Virtual Reality", "Game AI"]
+  },
+  {
+    "id": 41,
+    "nome": "Alice Fernanda Santos",
+    "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "cargo": "Analista de Inteligência de Mercado",
+    "resumo": "Analisando tendências e fornecendo insights estratégicos de mercado",
+    "localizacao": "Salvador/BA",
+    "area": "Inteligência de Mercado",
+    "habilidadesTecnicas": ["Market Research", "Competitive Analysis", "Data Mining", "Power BI", "Statistical Analysis"],
+    "softSkills": ["Pensamento estratégico", "Análise crítica", "Comunicação", "Curiosidade"],
+    "experiencias": [
+      {
+        "empresa": "Market Intelligence Corp",
+        "cargo": "Market Intelligence Analyst",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Análise de mercado e inteligência competitiva para decisões estratégicas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Inteligência de Mercado",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de Inteligência Competitiva",
+        "link": "https://linkedin.com/alice/market-intelligence",
+        "descricao": "Dashboard que monitora 50+ concorrentes em tempo real"
+      }
+    ],
+    "certificacoes": ["Market Research Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Market Intelligence", "Competitive Analysis", "Strategic Planning"]
+  },
+  {
+    "id": 42,
+    "nome": "Bruno César Oliveira",
+    "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+    "cargo": "Especialista em Realidade Virtual",
+    "resumo": "Desenvolvendo experiências imersivas em VR e AR",
+    "localizacao": "Porto Alegre/RS",
+    "area": "VR/AR",
+    "habilidadesTecnicas": ["Unity XR", "Oculus SDK", "ARKit", "ARCore", "3D Graphics", "VR Interaction"],
+    "softSkills": ["Inovação", "Criatividade", "Resolução de problemas", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Immersive Tech Lab",
+        "cargo": "VR Developer",
+        "inicio": "2021-03",
+        "fim": null,
+        "descricao": "Desenvolvimento de aplicações VR/AR para treinamento e educação"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Realidade Virtual",
+        "instituicao": "PUCRS",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Simulador VR de Treinamento Médico",
+        "link": "https://github.com/bruno/vr-medical",
+        "descricao": "Aplicação VR para treinamento de procedimentos cirúrgicos"
+      }
+    ],
+    "certificacoes": ["Unity XR Developer Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Virtual Reality", "Augmented Reality", "Immersive Learning"]
+  },
+  {
+    "id": 43,
+    "nome": "Carolina Silva Almeida",
+    "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    "cargo": "Gerente de Inovação",
+    "resumo": "Impulsionando cultura de inovação e transformação digital",
+    "localizacao": "São Paulo/SP",
+    "area": "Inovação",
+    "habilidadesTecnicas": ["Design Thinking", "Innovation Management", "Lean Startup", "Agile", "Business Model Canvas"],
+    "softSkills": ["Liderança", "Visão estratégica", "Criatividade", "Facilitação"],
+    "experiencias": [
+      {
+        "empresa": "Innovation Hub",
+        "cargo": "Innovation Manager",
+        "inicio": "2019-08",
+        "fim": null,
+        "descricao": "Gestão de portfólio de inovação e programas de transformação digital"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Inovação e Transformação Digital",
+        "instituicao": "ESPM",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Inovação Aberta",
+        "link": "https://linkedin.com/carolina/open-innovation",
+        "descricao": "Programa que gerou 20+ projetos inovadores em 2 anos"
+      }
+    ],
+    "certificacoes": ["Certified Innovation Professional", "Design Thinking Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Alemão", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Innovation Management", "Digital Transformation", "Corporate Venturing"]
+  },
+  {
+    "id": 44,
+    "nome": "Danilo Pereira Costa",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Desenvolvedor Embedded",
+    "resumo": "Programando sistemas embarcados e dispositivos IoT",
+    "localizacao": "Campinas/SP",
+    "area": "Sistemas Embarcados",
+    "habilidadesTecnicas": ["C", "C++", "Embedded Linux", "RTOS", "Microcontrollers", "Hardware Interfacing"],
+    "softSkills": ["Atenção aos detalhes", "Resolução de problemas", "Persistência", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Embedded Systems Solutions",
+        "cargo": "Embedded Software Engineer",
+        "inicio": "2020-04",
+        "fim": null,
+        "descricao": "Desenvolvimento de firmware para dispositivos IoT industriais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia Eletrônica",
+        "instituicao": "Unicamp",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Controlador Industrial IoT",
+        "link": "https://github.com/danilo/industrial-controller",
+        "descricao": "Sistema embarcado para automação industrial"
+      }
+    ],
+    "certificacoes": ["Embedded Systems Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Embedded Systems", "Real-Time Systems", "IoT Hardware"]
+  },
+  {
+    "id": 45,
+    "nome": "Elaine Cristina Rocha",
+    "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+    "cargo": "Consultora de Negócios",
+    "resumo": "Transformando processos e otimizando resultados de negócios",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Consultoria",
+    "habilidadesTecnicas": ["Business Analysis", "Process Mapping", "Financial Modeling", "Strategic Planning", "Change Management"],
+    "softSkills": ["Análise crítica", "Comunicação", "Negociação", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "Business Consulting Partners",
+        "cargo": "Business Consultant",
+        "inicio": "2019-10",
+        "fim": null,
+        "descricao": "Consultoria estratégica e transformação de processos de negócio"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Consultoria Empresarial",
+        "instituicao": "FGV",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Reestruturação Operacional",
+        "link": "https://linkedin.com/elaine/operational-restructuring",
+        "descricao": "Projeto que gerou economia de R$ 5M anuais"
+      }
+    ],
+    "certificacoes": ["CBAP - Certified Business Analysis Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Business Transformation", "Process Optimization", "Strategic Consulting"]
+  },
+  {
+    "id": 46,
+    "nome": "Fernando Augusto Lima",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Arquiteto de Front-end",
+    "resumo": "Definindo padrões e arquitetura para aplicações web modernas",
+    "localizacao": "São Paulo/SP",
+    "area": "Arquitetura Front-end",
+    "habilidadesTecnicas": ["React", "TypeScript", "Micro-frontends", "Design Systems", "Web Performance", "Architecture Patterns"],
+    "softSkills": ["Liderança técnica", "Comunicação", "Visão arquitetural", "Mentoria"],
+    "experiencias": [
+      {
+        "empresa": "Frontend Architecture Lab",
+        "cargo": "Frontend Architect",
+        "inicio": "2019-07",
+        "fim": null,
+        "descricao": "Definição de arquitetura e padrões para aplicações front-end enterprise"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Micro-frontend Framework",
+        "link": "https://github.com/fernando/microfrontend-framework",
+        "descricao": "Framework para arquitetura de micro-frontends"
+      }
+    ],
+    "certificacoes": ["Google Frontend Web Developer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Frontend Architecture", "Micro-frontends", "Web Standards"]
+  },
+  {
+    "id": 47,
+    "nome": "Graziela Martins Souza",
+    "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+    "cargo": "Especialista em Automação de Marketing",
+    "resumo": "Criando jornadas automatizadas para engajamento e conversão",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing Automation",
+    "habilidadesTecnicas": ["HubSpot", "Marketo", "Pardot", "Email Marketing", "Lead Nurturing", "Marketing Analytics"],
+    "softSkills": ["Estratégia", "Análise de dados", "Criatividade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Marketing Automation Agency",
+        "cargo": "Marketing Automation Specialist",
+        "inicio": "2020-08",
+        "fim": null,
+        "descricao": "Implementação e otimização de automações de marketing B2B"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Marketing Digital",
+        "instituicao": "PUCPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Nurturing Multi-touch",
+        "link": "https://linkedin.com/graziela/nurturing-program",
+        "descricao": "Automação que aumentou taxa de conversão em 55%"
+      }
+    ],
+    "certificacoes": ["HubSpot Marketing Automation", "Marketo Certified Expert"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Marketing Automation", "Lead Generation", "Email Marketing"]
+  },
+  {
+    "id": 48,
+    "nome": "Heitor Leonardo Costa",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "Engenheiro de Confiabilidade (SRE)",
+    "resumo": "Garantindo alta disponibilidade e performance de sistemas críticos",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Site Reliability Engineering",
+    "habilidadesTecnicas": ["Kubernetes", "Prometheus", "Grafana", "Terraform", "Incident Management", "SLO/SLI"],
+    "softSkills": ["Trabalho sob pressão", "Resolução de problemas", "Colaboração", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Reliability Systems Inc",
+        "cargo": "Site Reliability Engineer",
+        "inicio": "2020-09",
+        "fim": null,
+        "descricao": "Manutenção de SLOs e automação de operações em sistemas de alta escala"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de Observabilidade",
+        "link": "https://github.com/heitor/observability-platform",
+        "descricao": "Sistema de monitoramento e alertas distribuído"
+      }
+    ],
+    "certificacoes": ["Certified Kubernetes Administrator", "AWS DevOps Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Site Reliability Engineering", "Observability", "Chaos Engineering"]
+  },
+  {
+    "id": 49,
+    "nome": "Isabelle Cardoso Alves",
+    "foto": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400",
+    "cargo": "Analista de Social Media",
+    "resumo": "Criando estratégias e conteúdos para engajamento em redes sociais",
+    "localizacao": "Fortaleza/CE",
+    "area": "Social Media",
+    "habilidadesTecnicas": ["Social Media Management", "Content Creation", "Analytics", "Paid Social", "Community Management"],
+    "softSkills": ["Criatividade", "Comunicação", "Agilidade", "Empatia"],
+    "experiencias": [
+      {
+        "empresa": "Social Media Agency",
+        "cargo": "Social Media Analyst",
+        "inicio": "2020-07",
+        "fim": null,
+        "descricao": "Gestão de redes sociais e criação de conteúdo para marcas B2C"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Mídias Sociais",
+        "instituicao": "UFC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Campanha Viral no Instagram",
+        "link": "https://linkedin.com/isabelle/viral-campaign",
+        "descricao": "Campanha que alcançou 5M de pessoas organicamente"
+      }
+    ],
+    "certificacoes": ["Meta Social Media Marketing", "Hootsuite Platform Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Social Media Marketing", "Content Strategy", "Influencer Marketing"]
+  },
+  {
+    "id": 50,
+    "nome": "João Victor Ribeiro",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Analista de Cibersegurança",
+    "resumo": "Detectando e respondendo a ameaças cibernéticas avançadas",
+    "localizacao": "Brasília/DF",
+    "area": "Cibersegurança",
+    "habilidadesTecnicas": ["Threat Hunting", "SIEM", "IDS/IPS", "Forensics", "Incident Response", "Security Automation"],
+    "softSkills": ["Pensamento analítico", "Atenção aos detalhes", "Trabalho sob pressão", "Ética"],
+    "experiencias": [
+      {
+        "empresa": "Cybersecurity Operations Center",
+        "cargo": "Cybersecurity Analyst",
+        "inicio": "2021-01",
+        "fim": null,
+        "descricao": "Monitoramento e resposta a incidentes de segurança 24/7"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Especialização em Cibersegurança",
+        "instituicao": "UnB",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "SOAR Platform Implementation",
+        "link": "https://github.com/joao/soar-implementation",
+        "descricao": "Automação de resposta a incidentes que reduziu MTTR em 70%"
+      }
+    ],
+    "certificacoes": ["GCIH - GIAC Certified Incident Handler", "CEH"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Threat Intelligence", "Incident Response", "Security Automation"]
+  },
+  {
+    "id": 51,
+    "nome": "Laura Beatriz Santos",
+    "foto": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=400",
+    "cargo": "Product Owner",
+    "resumo": "Maximizando valor do produto através de priorização e visão estratégica",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Product Backlog Management", "User Stories", "Agile Methodologies", "Roadmapping", "Stakeholder Management"],
+    "softSkills": ["Visão estratégica", "Comunicação", "Negociação", "Tomada de decisão"],
+    "experiencias": [
+      {
+        "empresa": "Agile Product Company",
+        "cargo": "Product Owner",
+        "inicio": "2020-03",
+        "fim": null,
+        "descricao": "Gestão de backlog e definição de roadmap de produto digital"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Produtos Digitais",
+        "instituicao": "PUCRS",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lançamento de Feature de IA",
+        "link": "https://linkedin.com/laura/ai-feature",
+        "descricao": "Feature que aumentou retenção de usuários em 35%"
+      }
+    ],
+    "certificacoes": ["CSPO - Certified Scrum Product Owner", "SAFe Product Owner"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Product Management", "Agile Product Development", "Product Strategy"]
+  },
+  {
+    "id": 52,
+    "nome": "Miguel Angelo Silva",
+    "foto": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400",
+    "cargo": "Especialista em Análise Preditiva",
+    "resumo": "Construindo modelos preditivos para tomada de decisão estratégica",
+    "localizacao": "São Paulo/SP",
+    "area": "Analytics",
+    "habilidadesTecnicas": ["Predictive Modeling", "R", "Python", "Statistical Analysis", "Time Series", "Forecasting"],
+    "softSkills": ["Pensamento analítico", "Comunicação", "Curiosidade", "Rigor metodológico"],
+    "experiencias": [
+      {
+        "empresa": "Predictive Analytics Lab",
+        "cargo": "Predictive Analytics Specialist",
+        "inicio": "2020-11",
+        "fim": null,
+        "descricao": "Desenvolvimento de modelos preditivos para forecasting e análise de risco"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Estatística",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Previsão de Demanda",
+        "link": "https://github.com/miguel/demand-forecasting",
+        "descricao": "Modelo que melhorou acurácia de forecast em 40%"
+      }
+    ],
+    "certificacoes": ["SAS Certified Predictive Modeler"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Predictive Analytics", "Forecasting", "Risk Modeling"]
+  },
+  {
+    "id": 53,
+    "nome": "Natasha Lima Costa",
+    "foto": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
+    "cargo": "Especialista em Customer Success",
+    "resumo": "Garantindo sucesso e satisfação contínua dos clientes",
+    "localizacao": "Florianópolis/SC",
+    "area": "Customer Success",
+    "habilidadesTecnicas": ["Customer Health Scoring", "Churn Prevention", "Onboarding", "Account Management", "CRM"],
+    "softSkills": ["Empatia", "Proatividade", "Comunicação", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "SaaS Success Platform",
+        "cargo": "Customer Success Manager",
+        "inicio": "2020-05",
+        "fim": null,
+        "descricao": "Gestão de portfólio de 100+ clientes enterprise B2B"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Customer Success",
+        "instituicao": "ESPM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Onboarding Escalável",
+        "link": "https://linkedin.com/natasha/onboarding-program",
+        "descricao": "Redução de 50% no churn nos primeiros 90 dias"
+      }
+    ],
+    "certificacoes": ["Customer Success Manager Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Customer Success", "SaaS Metrics", "Churn Prevention"]
+  },
+  {
+    "id": 54,
+    "nome": "Otávio Machado Rocha",
+    "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "cargo": "Desenvolvedor Python",
+    "resumo": "Construindo aplicações robustas e escaláveis com Python",
+    "localizacao": "Campinas/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Python", "Django", "Flask", "FastAPI", "PostgreSQL", "Redis", "Celery"],
+    "softSkills": ["Resolução de problemas", "Trabalho em equipe", "Aprendizado contínuo", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Python Development House",
+        "cargo": "Python Developer",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Desenvolvimento de APIs e sistemas backend com Python"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "Unicamp",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API de Processamento em Tempo Real",
+        "link": "https://github.com/otavio/realtime-api",
+        "descricao": "API processando 100k requisições por minuto"
+      }
+    ],
+    "certificacoes": ["Python Institute Certified Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Python Development", "API Design", "Async Programming"]
+  },
+  {
+    "id": 55,
+    "nome": "Patrícia Souza Martins",
+    "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400",
+    "cargo": "Gerente de Vendas B2B",
+    "resumo": "Desenvolvendo estratégias de vendas e construindo relacionamentos corporativos",
+    "localizacao": "São Paulo/SP",
+    "area": "Vendas",
+    "habilidadesTecnicas": ["Sales Strategy", "CRM", "Negotiation", "Account Management", "Sales Analytics"],
+    "softSkills": ["Negociação", "Relacionamento interpessoal", "Persuasão", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Sales Corp",
+        "cargo": "B2B Sales Manager",
+        "inicio": "2019-09",
+        "fim": null,
+        "descricao": "Gestão de equipe de vendas e desenvolvimento de estratégia comercial"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão Comercial",
+        "instituicao": "FGV",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Expansão de Carteira Enterprise",
+        "link": "https://linkedin.com/patricia/enterprise-expansion",
+        "descricao": "Crescimento de 200% em vendas enterprise em 18 meses"
+      }
+    ],
+    "certificacoes": ["Certified Sales Professional", "Challenger Sales Methodology"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["B2B Sales", "Enterprise Sales", "Sales Enablement"]
+  },
+  {
+    "id": 56,
+    "nome": "Rafael Henrique Dias",
+    "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "cargo": "Arquiteto de Microsserviços",
+    "resumo": "Projetando e implementando arquiteturas de microsserviços escaláveis",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["Microservices", "Event-Driven Architecture", "API Gateway", "Service Mesh", "Kafka", "Docker"],
+    "softSkills": ["Visão arquitetural", "Liderança técnica", "Comunicação", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Microservices Architecture Lab",
+        "cargo": "Microservices Architect",
+        "inicio": "2019-11",
+        "fim": null,
+        "descricao": "Arquitetura e implementação de sistemas baseados em microsserviços"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Arquitetura de Software",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de Microsserviços",
+        "link": "https://github.com/rafael/microservices-platform",
+        "descricao": "Arquitetura com 50+ microsserviços em produção"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "Certified Microservices Architect"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Microservices Architecture", "Domain-Driven Design", "Event-Driven Systems"]
+  },
+  {
+    "id": 57,
+    "nome": "Samantha Oliveira Lima",
+    "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400",
+    "cargo": "Especialista em E-mail Marketing",
+    "resumo": "Criando campanhas de e-mail que engajam e convertem",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Email Marketing", "Marketing Automation", "A/B Testing", "Deliverability", "HTML/CSS Email"],
+    "softSkills": ["Criatividade", "Análise de dados", "Copywriting", "Atenção aos detalhes"],
+    "experiencias": [
+      {
+        "empresa": "Email Marketing Agency",
+        "cargo": "Email Marketing Specialist",
+        "inicio": "2020-07",
+        "fim": null,
+        "descricao": "Criação e otimização de campanhas de e-mail marketing"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Marketing Digital",
+        "instituicao": "PUCPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Campanha de Re-engagement",
+        "link": "https://linkedin.com/samantha/reengagement-campaign",
+        "descricao": "Campanha que reativou 30% da base inativa"
+      }
+    ],
+    "certificacoes": ["Email Marketing Certification", "Marketing Automation Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Email Marketing", "Marketing Automation", "CRM Marketing"]
+  },
+  {
+    "id": 58,
+    "nome": "Thales Ricardo Costa",
+    "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+    "cargo": "Especialista em Data Warehouse",
+    "resumo": "Construindo e otimizando data warehouses para analytics avançado",
+    "localizacao": "São Paulo/SP",
+    "area": "Data Warehousing",
+    "habilidadesTecnicas": ["Data Modeling", "ETL", "Snowflake", "Redshift", "dbt", "SQL Optimization"],
+    "softSkills": ["Pensamento analítico", "Atenção aos detalhes", "Resolução de problemas", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Data Warehouse Solutions",
+        "cargo": "Data Warehouse Specialist",
+        "inicio": "2020-04",
+        "fim": null,
+        "descricao": "Design e implementação de data warehouses enterprise"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Banco de Dados",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Enterprise Data Warehouse",
+        "link": "https://github.com/thales/enterprise-dwh",
+        "descricao": "DW centralizado com 200+ fontes de dados"
+      }
+    ],
+    "certificacoes": ["Snowflake SnowPro Core", "AWS Data Analytics Specialty"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Data Warehousing", "Dimensional Modeling", "Modern Data Stack"]
+  },
+  {
+    "id": 59,
+    "nome": "Valéria Cristina Santos",
+    "foto": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400",
+    "cargo": "Coordenadora de UX Writing",
+    "resumo": "Criando textos que melhoram a experiência e guiam os usuários",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "UX Writing",
+    "habilidadesTecnicas": ["UX Writing", "Content Design", "Microcopy", "Voice & Tone", "Information Architecture"],
+    "softSkills": ["Empatia", "Comunicação", "Criatividade", "Atenção aos detalhes"],
+    "experiencias": [
+      {
+        "empresa": "UX Content Lab",
+        "cargo": "UX Writer Lead",
+        "inicio": "2020-09",
+        "fim": null,
+        "descricao": "Coordenação de equipe de UX writers e definição de voice & tone"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em UX Writing",
+        "instituicao": "PUC-Rio",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Content Design System",
+        "link": "https://linkedin.com/valeria/content-design-system",
+        "descricao": "Sistema de conteúdo que padronizou comunicação em 5 produtos"
+      }
+    ],
+    "certificacoes": ["UX Writing Certification", "Content Strategy Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["UX Writing", "Content Design", "Inclusive Language"]
+  },
+  {
+    "id": 60,
+    "nome": "Wellington Alves Rocha",
+    "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "cargo": "Especialista em Observabilidade",
+    "resumo": "Implementando soluções de monitoramento e observabilidade em escala",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Observabilidade",
+    "habilidadesTecnicas": ["Prometheus", "Grafana", "Jaeger", "ELK Stack", "OpenTelemetry", "Distributed Tracing"],
+    "softSkills": ["Resolução de problemas", "Análise crítica", "Comunicação", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Observability Platform Inc",
+        "cargo": "Observability Engineer",
+        "inicio": "2021-02",
+        "fim": null,
+        "descricao": "Implementação de stack de observabilidade para sistemas distribuídos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "PUCRS",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de Observabilidade Unificada",
+        "link": "https://github.com/wellington/unified-observability",
+        "descricao": "Stack de observabilidade monitorando 200+ microsserviços"
+      }
+    ],
+    "certificacoes": ["Prometheus Certified Associate", "Grafana Certified Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Observability", "Distributed Tracing", "Performance Monitoring"]
+  }
+]
