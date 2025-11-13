@@ -1,9 +1,10 @@
 import {  ArrowRight  } from "lucide-react";
+import SearchBar from "../components/SearchBar";
 
 export default function AdminLayout() {
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -42,6 +43,12 @@ export default function AdminLayout() {
           </div>
         </div>
       </section>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <SearchBar/>
+
+      </main>
+
 
     </div>
   );
