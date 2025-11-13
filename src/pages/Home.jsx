@@ -1,12 +1,14 @@
 import { ArrowRight, Users } from "lucide-react";
 import SearchBar from "../components/SearchBar";
 import ProfileCard from "../components/ProfileCard";
+import ProfileModal from "../components/ProfileModal";
 import * as profilesDataModule from "../../data/profiles.json";
 import { useEffect, useState } from "react";
 
 export default function AdminLayout() {
   const [profiles, setProfiles] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedProfile, setSelectedProfile] = useState(null);
 
   useEffect(() => {
     try {
@@ -88,7 +90,11 @@ export default function AdminLayout() {
         ) : profiles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {profiles.map((profile) => (
-              <ProfileCard key={profile.id} profile={profile} />
+              <ProfileCard
+                key={profile.id}
+                profile={profile}
+                onClick={() => setSelectedProfile(profile)}
+              />
             ))}
           </div>
         ) : (
@@ -103,6 +109,14 @@ export default function AdminLayout() {
           </div>
         )}
       </main>
+
+      {/* Profile Modal */}
+      {selectedProfile && (
+        <ProfileModal
+          profile={selectedProfile}
+          onClose={() => setSelectedProfile(null)}
+        />
+      )}
     </div>
   );
 }

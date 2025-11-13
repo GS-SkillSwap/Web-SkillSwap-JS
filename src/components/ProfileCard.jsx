@@ -1,8 +1,9 @@
 import { Briefcase, MapPin } from "lucide-react";
 
-export default function ProfileCard({ profile }) {
+export default function ProfileCard({ profile, onClick }) {
   return (
     <div
+      onClick={onClick}
       className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden border border-gray-200 dark:border-gray-700 hover:scale-105"
     >
       <div className="h-24 bg-gradient-to-r from-blue-500 to-purple-600"></div>
