@@ -3,9 +3,9 @@ import { Outlet } from "react-router-dom";
 
 export default function AdminLayout() {
   return (
-    <div className="flex">
+    <div className="relative min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <Navbar />
-      <div className="flex-1 bg-gray-100 min-h-screen p-6">
+      <div className="mt-10">
         <Outlet />
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-primary-600 via-primary-700 to-accent-600 shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
+    <nav className="bg-white shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex justify-between items-center h-16">
           {/* Esquerda: Logo e Título */}
@@ -15,25 +15,31 @@ const Navbar = () => {
                 className="h-8 w-8 rounded object-cover"
               />
             </div>
-            <h1 className="text-2xl font-bold text-white">
+            <h1 className="text-2xl font-bold text-black">
               <Link
                 to="/"
                 className="hover:text-accent-200 transition-colors duration-300 flex items-center gap-2"
               >
-                Skill<span className="text-accent-300">Swap</span>
+                SkillSwap
               </Link>
             </h1>
           </div>
 
-          {/* Centro: Botão Network */}
-          <div className="absolute left-1/2 transform -translate-x-1/2">
-            <Link
-              to="/network"
-              className="group relative text-white/90 hover:text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 hover:border-white/40 hover:shadow-lg hover:shadow-accent-500/20"
+          {/* Centro: Navegação */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 flex gap-4">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `group relative px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm border border-white/20 hover:border-white/40 hover:shadow-lg hover:shadow-accent-500/20 ${
+                  isActive
+                    ? "bg-blue-600 hover:bg-blue-700 text-white/90 hover:text-white"
+                    : "bg-white/10 hover:bg-white/20 text-black/90 hover:text-black"
+                }`
+              }
             >
-              <span className="relative z-10">Network</span>
+              <span className="relative z-10">Home</span>
               <span className="absolute inset-0 rounded-full bg-gradient-to-r from-skill-400 to-accent-400 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
-            </Link>
+            </NavLink>
           </div>
 
           {/* Direita: Botão Login */}
