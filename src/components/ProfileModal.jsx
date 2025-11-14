@@ -8,11 +8,15 @@ import {
   Heart,
   Link as LinkIcon,
   Calendar,
-  Notebook
+  Notebook,
 } from "lucide-react";
 import { toast } from "sonner";
+import { useState } from "react";
+import MessageModal from "./MessageModal";
 
 export default function ProfileModal({ profile, onClose }) {
+  const [showMessageModal, setShowMessageModal] = useState(false);
+
   const handleRecommend = () => {
     toast.success(`Você recomendou ${profile.nome}!`, {
       description: "Sua recomendação foi enviada com sucesso.",
@@ -20,9 +24,7 @@ export default function ProfileModal({ profile, onClose }) {
   };
 
   const handleSendMessage = () => {
-    toast.success(`Mensagem enviada para ${profile.nome}!`, {
-      description: "Sua mensagem foi entregue. Aguarde o retorno.",
-    });
+    setShowMessageModal(true);
   };
 
   const formatDate = (date) => {
@@ -104,9 +106,8 @@ export default function ProfileModal({ profile, onClose }) {
             </h3>
 
             <p className="text-sm text-gray-900 dark:text-white">
-                {profile.descricao}
+              {profile.descricao}
             </p>
-
           </div>
 
           {/* Hard Skills */}
@@ -200,7 +201,6 @@ export default function ProfileModal({ profile, onClose }) {
                       {edu.fim ? formatDate(edu.fim) : "Atual"}
                     </span>
                   </div>
-
                 </div>
               ))}
             </div>
@@ -308,6 +308,14 @@ export default function ProfileModal({ profile, onClose }) {
           </div>
         </div>
       </div>
+
+      {/* Message Modal */}
+      {showMessageModal && (
+        <MessageModal
+          profile={profile}
+          onClose={() => setShowMessageModal(false)}
+        />
+      )}
     </div>
   );
 }
