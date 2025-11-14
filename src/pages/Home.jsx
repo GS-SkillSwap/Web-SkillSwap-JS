@@ -3,12 +3,59 @@ import SearchBar from "../components/SearchBar";
 import ProfileCard from "../components/ProfileCard";
 import ProfileModal from "../components/ProfileModal";
 import * as profilesDataModule from "../../data/profiles.json";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
 export default function AdminLayout() {
   const [profiles, setProfiles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedProfile, setSelectedProfile] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filters, setFilters] = useState({
+    area: "",
+    localizacao: "",
+    tecnologia: "",
+  });
+
+  // Calcular opções dinâmicas para filtros
+  const filterOptions = useMemo(() => {
+    if (!profiles.length)
+      return { areas: [], localizacoes: [], tecnologias: [] };
+
+    const areas = [...new Set(profiles.map((p) => p.area))].sort();
+    const localizacoes = [
+      ...new Set(profiles.map((p) => p.localizacao)),
+    ].sort();
+    const tecnologias = [
+      ...new Set(profiles.flatMap((p) => p.habilidadesTecnicas)),
+    ].sort();
+
+    return { areas, localizacoes, tecnologias };
+  }, [profiles]);
+
+  // Filtrar perfis baseado na busca e filtros
+  const filteredProfiles = useMemo(() => {
+    return profiles.filter((profile) => {
+      // Filtro por texto de busca
+      const matchesSearch =
+        searchQuery === "" ||
+        profile.nome.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        profile.cargo.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        profile.area.toLowerCase().includes(searchQuery.toLowerCase());
+
+      // Filtros
+      const matchesArea = filters.area === "" || profile.area === filters.area;
+      const matchesLocalizacao =
+        filters.localizacao === "" ||
+        profile.localizacao === filters.localizacao;
+      const matchesTecnologia =
+        filters.tecnologia === "" ||
+        profile.habilidadesTecnicas.includes(filters.tecnologia);
+
+      return (
+        matchesSearch && matchesArea && matchesLocalizacao && matchesTecnologia
+      );
+    });
+  }, [profiles, searchQuery, filters]);
 
   useEffect(() => {
     try {
@@ -71,12 +118,18 @@ export default function AdminLayout() {
       </section>
 
       <main id="perfis" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <SearchBar />
+        <SearchBar
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          filters={filters}
+          onFiltersChange={setFilters}
+          filterOptions={filterOptions}
+        />
 
         <div className="mb-6">
           <p className="text-gray-700 dark:text-gray-300">
-            {profiles.length}{" "}
-            {profiles.length === 1
+            {filteredProfiles.length}{" "}
+            {filteredProfiles.length === 1
               ? "profissional encontrado"
               : "profissionais encontrados"}
           </p>
@@ -89,9 +142,9 @@ export default function AdminLayout() {
               Carregando perfis...
             </p>
           </div>
-        ) : profiles.length > 0 ? (
+        ) : filteredProfiles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {profiles.map((profile) => (
+            {filteredProfiles.map((profile) => (
               <ProfileCard
                 key={profile.id}
                 profile={profile}

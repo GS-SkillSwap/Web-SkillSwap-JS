@@ -1,12 +1,39 @@
 import { Search, Filter } from "lucide-react";
 import { useState } from "react";
 
-export default function SearchBar() {
-  const [searchQuery, setSearchQuery] = useState("");
+export default function SearchBar({
+  searchQuery,
+  onSearchChange,
+  filters,
+  onFiltersChange,
+  filterOptions,
+}) {
   const [showFilters, setShowFilters] = useState(false);
 
   const handleSearchChange = (value) => {
-    setSearchQuery(value);
+    onSearchChange(value);
+  };
+
+  const handleFilterChange = (filterType, value) => {
+    onFiltersChange({
+      ...filters,
+      [filterType]: value,
+    });
+  };
+
+  const hasActiveFilters =
+    searchQuery !== "" ||
+    filters.area !== "" ||
+    filters.localizacao !== "" ||
+    filters.tecnologia !== "";
+
+  const clearAllFilters = () => {
+    onSearchChange("");
+    onFiltersChange({
+      area: "",
+      localizacao: "",
+      tecnologia: "",
+    });
   };
 
   return (
@@ -33,6 +60,15 @@ export default function SearchBar() {
             <Filter className="w-4 h-4" />
             Filtros
           </button>
+
+          {hasActiveFilters && (
+            <button
+              onClick={clearAllFilters}
+              className="flex items-center gap-2 px-4 py-2 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded-lg hover:bg-red-200 dark:hover:bg-red-800 transition-colors"
+            >
+              Limpar Filtros
+            </button>
+          )}
         </div>
 
         {showFilters && (
@@ -42,9 +78,17 @@ export default function SearchBar() {
               <label className="block text-sm text-gray-700 dark:text-gray-300 mb-2">
                 Área
               </label>
-              <select className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+              <select
+                value={filters.area}
+                onChange={(e) => handleFilterChange("area", e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              >
                 <option value="">Todas as áreas</option>
-                {/* Mais opções dinâmicas... */}
+                {filterOptions.areas.map((area) => (
+                  <option key={area} value={area}>
+                    {area}
+                  </option>
+                ))}
               </select>
             </div>
 
@@ -53,9 +97,19 @@ export default function SearchBar() {
               <label className="block text-sm text-gray-700 dark:text-gray-300 mb-2">
                 Localização
               </label>
-              <select className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+              <select
+                value={filters.localizacao}
+                onChange={(e) =>
+                  handleFilterChange("localizacao", e.target.value)
+                }
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              >
                 <option value="">Todas as cidades</option>
-                {/* Mais opções dinâmicas... */}
+                {filterOptions.localizacoes.map((localizacao) => (
+                  <option key={localizacao} value={localizacao}>
+                    {localizacao}
+                  </option>
+                ))}
               </select>
             </div>
 
@@ -64,9 +118,19 @@ export default function SearchBar() {
               <label className="block text-sm text-gray-700 dark:text-gray-300 mb-2">
                 Tecnologias
               </label>
-              <select className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+              <select
+                value={filters.tecnologia}
+                onChange={(e) =>
+                  handleFilterChange("tecnologia", e.target.value)
+                }
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              >
                 <option value="">Todas as tecnologias</option>
-                {/* Mais opções dinâmicas... */}
+                {filterOptions.tecnologias.map((tecnologia) => (
+                  <option key={tecnologia} value={tecnologia}>
+                    {tecnologia}
+                  </option>
+                ))}
               </select>
             </div>
           </div>
