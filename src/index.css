@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   /* Paleta SkillSwap - tons modernos e profissionais */
   --color-primary-50: oklch(98% 0.01 220);

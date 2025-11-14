@@ -1,7 +1,14 @@
-import React from "react";
+import { Sun, Moon } from "lucide-react";
+import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const handleDark = () => {
+    document.documentElement.classList.toggle("dark");
+    setDarkMode(!darkMode);
+  };
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,15 +49,30 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-          {/* Direita: Botão Login */}
-          <div className="flex items-center">
-            <Link
-              to="/login"
-              className="group relative bg-white dark:bg-gray-800 text-primary-700 dark:text-primary-300 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-accent-50 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-accent-500/30 overflow-hidden"
+          <div className="flex gap-4">
+            {/* Botao Modo Escuro */}
+            <button
+              onClick={handleDark}
+              className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+              aria-label="Toggle dark mode"
             >
-              <span className="relative z-10">Login</span>
-              <span className="absolute inset-0 bg-gradient-to-r from-accent-400 to-skill-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
-            </Link>
+              {darkMode ? (
+                <Sun className="w-6 h-6" />
+              ) : (
+                <Moon className="w-6 h-6" />
+              )}
+            </button>
+
+            {/* Direita: Botão Login */}
+            <div className="flex items-center">
+              <Link
+                to="/login"
+                className="group relative bg-white dark:bg-gray-800 dark:text-gray-200 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-accent-50 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-accent-500/30 overflow-hidden"
+              >
+                <span className="relative z-10">Login</span>
+                <span className="absolute inset-0 bg-gradient-to-r from-accent-400 to-skill-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
