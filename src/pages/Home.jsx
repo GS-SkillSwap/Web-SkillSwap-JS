@@ -2,6 +2,7 @@ import { ArrowRight, Users } from "lucide-react";
 import SearchBar from "../components/SearchBar";
 import ProfileCard from "../components/ProfileCard";
 import ProfileModal from "../components/ProfileModal";
+import Footer from "../components/Footer";
 import * as profilesDataModule from "../../data/profiles.json";
 import { useEffect, useState, useMemo } from "react";
 
@@ -172,6 +173,9 @@ export default function AdminLayout() {
           onClose={() => setSelectedProfile(null)}
         />
       )}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
