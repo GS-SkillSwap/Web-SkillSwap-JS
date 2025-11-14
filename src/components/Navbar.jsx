@@ -3,22 +3,22 @@ import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
+    <nav className="bg-white dark:bg-gray-900 shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex justify-between items-center h-16">
           {/* Esquerda: Logo e Título */}
           <div className="flex-shrink-0 flex items-center space-x-3">
-            <div className="bg-white/10 p-2 rounded-lg backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300">
+            <div className="bg-white/10 dark:bg-gray-800/50 p-2 rounded-lg backdrop-blur-md border border-white/20 dark:border-gray-700 hover:bg-white/20 dark:hover:bg-gray-700/50 transition-all duration-300">
               <img
                 src="/SkillSwap-icon.jpg"
                 alt="SkillSwap"
                 className="h-8 w-8 rounded object-cover"
               />
             </div>
-            <h1 className="text-2xl font-bold text-black">
+            <h1 className="text-2xl font-bold text-black dark:text-white">
               <Link
                 to="/"
-                className="hover:text-accent-200 transition-colors duration-300 flex items-center gap-2"
+                className="hover:text-accent-200 dark:hover:text-accent-300 transition-colors duration-300 flex items-center gap-2"
               >
                 SkillSwap
               </Link>
@@ -30,10 +30,10 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `group relative px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm border border-white/20 hover:border-white/40 hover:shadow-lg hover:shadow-accent-500/20 ${
+                `group relative px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm border border-white/20 dark:border-gray-700 hover:border-white/40 dark:hover:border-gray-600 hover:shadow-lg hover:shadow-accent-500/20 ${
                   isActive
                     ? "bg-blue-600 hover:bg-blue-700 text-white/90 hover:text-white"
-                    : "bg-white/10 hover:bg-white/20 text-black/90 hover:text-black"
+                    : "bg-white/10 dark:bg-gray-800/50 hover:bg-white/20 dark:hover:bg-gray-700/50 text-black/90 dark:text-gray-300 hover:text-black dark:hover:text-white"
                 }`
               }
             >
@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link
               to="/login"
-              className="group relative bg-white text-primary-700 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-accent-50 transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-accent-500/30 overflow-hidden"
+              className="group relative bg-white dark:bg-gray-800 text-primary-700 dark:text-primary-300 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-accent-50 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-accent-500/30 overflow-hidden"
             >
               <span className="relative z-10">Login</span>
               <span className="absolute inset-0 bg-gradient-to-r from-accent-400 to-skill-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>

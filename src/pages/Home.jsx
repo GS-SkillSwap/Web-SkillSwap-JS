@@ -30,7 +30,7 @@ export default function AdminLayout() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -85,7 +85,9 @@ export default function AdminLayout() {
         {loading ? (
           <div className="text-center py-12">
             <div className="animate-pin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Carregando perfis...</p>
+            <p className="text-gray-600 dark:text-gray-400">
+              Carregando perfis...
+            </p>
           </div>
         ) : profiles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
