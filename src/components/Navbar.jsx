@@ -3,11 +3,20 @@ import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedDarkMode = localStorage.getItem("darkMode");
+    const isDark = savedDarkMode === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+    }
+    return isDark;
+  });
 
   const handleDark = () => {
+    const newDarkMode = !darkMode;
+    setDarkMode(newDarkMode);
     document.documentElement.classList.toggle("dark");
-    setDarkMode(!darkMode);
+    localStorage.setItem("darkMode", newDarkMode.toString());
   };
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-lg w-full fixed top-0 left-0 z-50 backdrop-blur-sm">
